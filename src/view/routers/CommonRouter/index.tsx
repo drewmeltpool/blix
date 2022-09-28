@@ -8,9 +8,9 @@ export const CommonRouter: FC = () => {
   return (
     <Routes>
       <Route element={<CommonLayout />}>
-        <Route path="albums" element={<AlbumListPage />} />
-        <Route path="albums/:albumId" element={<AlbumPage />} />
-        <Route path="albums/:albumId/:trackId" element={<SongPage />} />
+        <Route path="" element={<AlbumListPage />} />
+        <Route path="/:albumId" element={<AlbumPage />} />
+        <Route path="/:albumId/:trackId" element={<SongPage />} />
       </Route>
     </Routes>
   );

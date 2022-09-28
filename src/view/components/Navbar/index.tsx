@@ -10,12 +10,7 @@ export const Navbar: FC = () => {
       <Container size="md">
         <ul className="navbar-list flex gap-md">
           <li className="navbar-item">
-            <Link title="Home" to="" className="link navbar-link">
-              <Typography title="Home" variant="body-bold" />
-            </Link>
-          </li>
-          <li className="navbar-item">
-            <Link title="Home" to="/albums" className="link navbar-link">
+            <Link title="Home" to="/" className="link navbar-link">
               <Typography title="Albums" variant="body-bold" />
             </Link>
           </li>

@@ -10,12 +10,14 @@ export const SongTemplate: FC<IProps> = ({ track }) => {
   return (
     <Container size="md">
       {track ? (
-        <div>
-          <Typography variant="h2" title={track.name} />
+        <div className="flex col gap-md">
+          <Typography variant="h3" title={track.name} />
           <Typography variant="h4" title={track.author} />
-          <Typography variant="h6" title={track.description} />
-          <Typography variant="h6" title={track.duration} />
-          <audio controls src={track.song} />
+          <div className="flex gap-md">
+            <Typography variant="body2" title={track.description} />
+            <Typography variant="body-bold" title={track.duration} />
+          </div>
+          <audio controls src={track.song} className="w-100" />
         </div>
       ) : (
         <div>
