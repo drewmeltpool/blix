@@ -1,0 +1,28 @@
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.gap-md {
+    gap: 12px;
+}

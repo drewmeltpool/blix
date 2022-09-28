@@ -1,0 +1,17 @@
+.container {
+    flex: 1;
+    padding: 0 20px;
+    margin: 0 auto;
+
+    &.sm {
+        max-width: 540px;
+    }
+
+    &.md {
+        max-width: 760px;
+    }
+
+    &.lg {
+        max-width: 1200px;
+    }
+}
